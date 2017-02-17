@@ -1,12 +1,25 @@
 PODS:
   - Hero (0.3.1)
+  - Spring (1.0.3)
 
 DEPENDENCIES:
   - Hero
+  - Spring (from `https://github.com/MengTo/Spring.git`, branch `swift3`)
+
+EXTERNAL SOURCES:
+  Spring:
+    :branch: swift3
+    :git: https://github.com/MengTo/Spring.git
+
+CHECKOUT OPTIONS:
+  Spring:
+    :commit: 3a9227c6e9157e7b47f5ac1ee5abab2a56b50002
+    :git: https://github.com/MengTo/Spring.git
 
 SPEC CHECKSUMS:
   Hero: 278045543e7e8fcbf331e6493a51f97469a2ff08
+  Spring: 3f02b5dc3308572ef177b3cad0fa7bbc4b0706f7
 
-PODFILE CHECKSUM: 866b4c47aa455b692f22ecb5766844a7cdf8938b
+PODFILE CHECKSUM: 601204b1428de090c1c7c17fa0af6874fd7c364d
 
 COCOAPODS: 1.1.1

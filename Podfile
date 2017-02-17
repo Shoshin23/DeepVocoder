@@ -7,6 +7,7 @@ target 'DeepVocoder' do
 
   # Pods for DeepVocoder
    pod 'Hero'
+   pod 'Spring', :git => 'https://github.com/MengTo/Spring.git', :branch => 'swift3'
   target 'DeepVocoderTests' do
     inherit! :search_paths
     # Pods for testing
