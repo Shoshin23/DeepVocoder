@@ -32,11 +32,6 @@ class ViewController: UIViewController,AVAudioRecorderDelegate {
         
     }
 
-    @IBAction func recordButtonPressed(_ sender: UIButton) {
-        
-            
-    }
-    
     func loadRecordingUI() {
         recordStatus.text = "Ready to record."
 //        recordButtonAnimated.animation = "pop"
